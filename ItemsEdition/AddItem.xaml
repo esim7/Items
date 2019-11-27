@@ -1,0 +1,63 @@
+﻿<Page x:Class="ItemsEdition.AddItem"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:ItemsEdition"
+      mc:Ignorable="d" 
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+      TextElement.FontWeight="Regular"
+      TextElement.FontSize="13"
+      TextOptions.TextFormattingMode="Ideal"
+      TextOptions.TextRenderingMode="Auto"
+      Background="{DynamicResource MaterialDesignPaper}"
+      FontFamily="{DynamicResource MaterialDesignFont}"
+      d:DesignHeight="200" d:DesignWidth="314"
+      Title="AddItem">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40*"/>
+            <RowDefinition Height="40*"/>
+            <RowDefinition Height="40*"/>
+            <RowDefinition Height="40*"/>
+            <RowDefinition Height="40*"/>
+        </Grid.RowDefinitions>
+
+        <TextBox Grid.Row="0" Name="textBox_ItemName"
+  materialDesign:HintAssist.Hint="Наименование устройства" HorizontalAlignment="Center"
+  materialDesign:TextFieldAssist.TextBoxViewMargin="1 0 1 1"
+  materialDesign:HintAssist.FloatingScale="0.50"
+  Style="{StaticResource MaterialDesignFloatingHintTextBox}"
+  FontSize="14" VerticalAlignment="Center" Height="46" />
+
+        <TextBox Grid.Row="1" Name="textBox_ItemType"
+  materialDesign:HintAssist.Hint="Тип устройства" HorizontalAlignment="Center"
+  materialDesign:TextFieldAssist.TextBoxViewMargin="1 0 1 1"
+  materialDesign:HintAssist.FloatingScale="0.50"
+  Style="{StaticResource MaterialDesignFloatingHintTextBox}"
+  FontSize="14" VerticalAlignment="Center" Height="46" />
+
+        <TextBox Grid.Row="2" Name="textBox_ItemPrice"
+  materialDesign:HintAssist.Hint="Цена" HorizontalAlignment="Center"
+  materialDesign:TextFieldAssist.TextBoxViewMargin="1 0 1 1"
+  materialDesign:HintAssist.FloatingScale="0.50"
+  Style="{StaticResource MaterialDesignFloatingHintTextBox}"
+  FontSize="14" VerticalAlignment="Center" Height="46" />
+
+        <TextBox Grid.Row="3" Name="textBox_ItemWeight"
+  materialDesign:HintAssist.Hint="Вес" HorizontalAlignment="Center"
+  materialDesign:TextFieldAssist.TextBoxViewMargin="1 0 1 1"
+  materialDesign:HintAssist.FloatingScale="0.50"
+  Style="{StaticResource MaterialDesignFloatingHintTextBox}"
+  FontSize="14" VerticalAlignment="Center" Height="46" />
+        <Button Grid.Row="4"
+    Style="{StaticResource MaterialDesignRaisedButton}"
+    materialDesign:ButtonProgressAssist.Value="-1"
+    materialDesign:ButtonProgressAssist.IsIndicatorVisible="True"
+    materialDesign:ButtonProgressAssist.IsIndeterminate="True"
+    Content="Принять"
+    Margin="2,0" Click="Button_Accept" />
+    </Grid>
+</Page>
