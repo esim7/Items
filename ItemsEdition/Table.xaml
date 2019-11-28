@@ -42,5 +42,15 @@
     materialDesign:ButtonProgressAssist.IsIndeterminate="True"
     Content="Удалить"
     Margin="600,4,10,3" Grid.Row="1" Click="Delete_ItemClick"/>
+
+
+
+        <Button
+    Style="{StaticResource MaterialDesignRaisedButton}"
+    materialDesign:ButtonProgressAssist.Value="-1"
+    materialDesign:ButtonProgressAssist.IsIndicatorVisible="True"
+    materialDesign:ButtonProgressAssist.IsIndeterminate="True"
+    Content="Изменить"
+    Margin="302,30,302,75" Grid.Row="1" Click="Edit_ItemClick"/>
     </Grid>
 </Page>

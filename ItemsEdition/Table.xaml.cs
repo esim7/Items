@@ -21,13 +21,12 @@ namespace ItemsEdition
     /// </summary>
     public partial class Table : Page
     {
-        public ObservableCollection<Item> Items { get; set; }
+        public List<Item> Items { get; set; }
         public MainWindow Window;
         public Table(MainWindow Window)
         {
             InitializeComponent();
             this.Window = Window;
-            //Items = new ObservableCollection<Item>();
             var Items = Window.Context.Items.ToList();
             dataGrid.ItemsSource = Items;
         }
@@ -40,6 +39,11 @@ namespace ItemsEdition
         private void Delete_ItemClick(object sender, RoutedEventArgs e)
         {
             Window.frame.Navigate(new DeleteItem(Window));
+        }
+
+        private void Edit_ItemClick(object sender, RoutedEventArgs e)
+        {
+            Window.Context.SaveChanges();
         }
     }
 }

@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\home\\source\\repos\\ItemsEdition\\EF\\EF.csproj": {}
+    "C:\\Users\\МакишевЕ\\Source\\Repos\\Items\\EF\\EF.csproj": {}
   },
   "projects": {
-    "C:\\Users\\home\\source\\repos\\ItemsEdition\\Domain\\Domain.csproj": {
+    "C:\\Users\\МакишевЕ\\Source\\Repos\\Items\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\home\\source\\repos\\ItemsEdition\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\МакишевЕ\\Source\\Repos\\Items\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\home\\source\\repos\\ItemsEdition\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\home\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\home\\source\\repos\\ItemsEdition\\Domain\\obj\\",
+        "projectPath": "C:\\Users\\МакишевЕ\\Source\\Repos\\Items\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\МакишевЕ\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\МакишевЕ\\Source\\Repos\\Items\\Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\home\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\МакишевЕ\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -59,20 +56,17 @@
         }
       }
     },
-    "C:\\Users\\home\\source\\repos\\ItemsEdition\\EF\\EF.csproj": {
+    "C:\\Users\\МакишевЕ\\Source\\Repos\\Items\\EF\\EF.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\home\\source\\repos\\ItemsEdition\\EF\\EF.csproj",
+        "projectUniqueName": "C:\\Users\\МакишевЕ\\Source\\Repos\\Items\\EF\\EF.csproj",
         "projectName": "EF",
-        "projectPath": "C:\\Users\\home\\source\\repos\\ItemsEdition\\EF\\EF.csproj",
-        "packagesPath": "C:\\Users\\home\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\home\\source\\repos\\ItemsEdition\\EF\\obj\\",
+        "projectPath": "C:\\Users\\МакишевЕ\\Source\\Repos\\Items\\EF\\EF.csproj",
+        "packagesPath": "C:\\Users\\МакишевЕ\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\МакишевЕ\\Source\\Repos\\Items\\EF\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\home\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\МакишевЕ\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -85,8 +79,8 @@
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "C:\\Users\\home\\source\\repos\\ItemsEdition\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\home\\source\\repos\\ItemsEdition\\Domain\\Domain.csproj"
+              "C:\\Users\\МакишевЕ\\Source\\Repos\\Items\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\МакишевЕ\\Source\\Repos\\Items\\Domain\\Domain.csproj"
               }
             }
           }

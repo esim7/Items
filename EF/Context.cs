@@ -15,7 +15,7 @@ namespace EF
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=DESKTOP-RM1NBDJ;Database=ItemEdition;Trusted_Connection=True;");
+            optionsBuilder.UseSqlServer("Server=A-104-13;Database=ItemEdition;Trusted_Connection=True;");
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

@@ -9,3 +9,14 @@ C:\Users\home\source\repos\ItemsEdition\EF\bin\Debug\netcoreapp3.0\Domain.pdb
 C:\Users\home\source\repos\ItemsEdition\EF\obj\Debug\netcoreapp3.0\EF.csproj.CopyComplete
 C:\Users\home\source\repos\ItemsEdition\EF\obj\Debug\netcoreapp3.0\EF.dll
 C:\Users\home\source\repos\ItemsEdition\EF\obj\Debug\netcoreapp3.0\EF.pdb
+C:\Users\МакишевЕ\Source\Repos\Items\EF\bin\Debug\netcoreapp3.0\EF.deps.json
+C:\Users\МакишевЕ\Source\Repos\Items\EF\bin\Debug\netcoreapp3.0\EF.dll
+C:\Users\МакишевЕ\Source\Repos\Items\EF\bin\Debug\netcoreapp3.0\EF.pdb
+C:\Users\МакишевЕ\Source\Repos\Items\EF\bin\Debug\netcoreapp3.0\Domain.dll
+C:\Users\МакишевЕ\Source\Repos\Items\EF\bin\Debug\netcoreapp3.0\Domain.pdb
+C:\Users\МакишевЕ\Source\Repos\Items\EF\obj\Debug\netcoreapp3.0\EF.csprojAssemblyReference.cache
+C:\Users\МакишевЕ\Source\Repos\Items\EF\obj\Debug\netcoreapp3.0\EF.AssemblyInfoInputs.cache
+C:\Users\МакишевЕ\Source\Repos\Items\EF\obj\Debug\netcoreapp3.0\EF.AssemblyInfo.cs
+C:\Users\МакишевЕ\Source\Repos\Items\EF\obj\Debug\netcoreapp3.0\EF.csproj.CopyComplete
+C:\Users\МакишевЕ\Source\Repos\Items\EF\obj\Debug\netcoreapp3.0\EF.dll
+C:\Users\МакишевЕ\Source\Repos\Items\EF\obj\Debug\netcoreapp3.0\EF.pdb
